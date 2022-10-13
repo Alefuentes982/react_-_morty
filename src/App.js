@@ -1,16 +1,19 @@
-import "./App.css";
+//import "./App.css";
 import "./components/Inicio"
 import Inicio from "./components/Inicio";
 
 function App() {
-  
+ 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      
         <Inicio/>
-      </header>
+     
     </div>
   );
 }
 
 export default App;
+// <div className="App">
+//<header className="App-header">
+// </header>

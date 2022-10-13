@@ -7,7 +7,7 @@ export const LogoutButton = () => {
   return (
    
 
-    <button onClick={() => logout({ returnTo: window.location.origin })}>
+    <button style={{position: 'fixed', top: '1.2%', right: '75%', height: '6.5%', width: '5.5%', textAlign: 'center', justifyContent: 'center'}} type="button" class="btn btn-secondary btn-sm"  onClick={() => logout({ returnTo: window.location.origin })}>
       Logout
     </button>
     

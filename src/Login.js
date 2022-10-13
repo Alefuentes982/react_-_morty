@@ -2,7 +2,7 @@ import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import fondo from "./img/fondoInicio.webp";
+//import fondo from "./img/fondoInicio.webp";
 
 export const LoginButton = () => {
   const { loginWithRedirect } = useAuth0();
