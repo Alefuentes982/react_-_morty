@@ -4,9 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Navbar = () => {
 
     return(
-       <div>
-      
-         
+       <div>       
           <nav className="navbar bg-light">
             <div className="container-fluid">
               <a className="navbar-brand" href="../img/logo.png">REACT AND MORTY APP</a>
